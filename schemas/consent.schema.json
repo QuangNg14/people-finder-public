@@ -1,0 +1,46 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/QuangNg14/people-finder/schemas/consent.schema.json",
+  "title": "Consent log",
+  "description": "Append-only consent ledger for one member, one entry per purpose. Entries are never edited; withdrawal is a new entry. Deletion tombstones the person record and keeps only this ledger with the member_id, mirroring the Pathwise account_service and migration 024 pattern.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["consent_log_id", "member_id", "entries"],
+  "properties": {
+    "consent_log_id": { "type": "string", "format": "uuid" },
+    "member_id": { "type": "string", "format": "uuid" },
+    "entries": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["entry_id", "purpose", "action", "at", "policy_version", "method"],
+        "properties": {
+          "entry_id": { "type": "string", "format": "uuid" },
+          "purpose": {
+            "type": "string",
+            "enum": ["directory_listing", "referral_requests", "mentoring_requests", "search_by_employer", "email_notifications"]
+          },
+          "action": { "type": "string", "enum": ["granted", "withdrawn"] },
+          "at": { "type": "string", "format": "date-time" },
+          "policy_version": { "type": "string", "pattern": "^\\d+\\.\\d+(\\.\\d+)?$" },
+          "method": { "type": "string", "enum": ["web_form", "magic_link", "account_settings", "deletion_request"] },
+          "fields_covered": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "enum": ["display_name", "current_employer", "team_or_function", "seniority_band", "city", "languages", "help_topics", "published_handles", "response_indicator"]
+            },
+            "uniqueItems": true
+          }
+        }
+      }
+    },
+    "tombstoned_at": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Set when the member is deleted. The person record is gone; only this ledger remains."
+    }
+  }
+}

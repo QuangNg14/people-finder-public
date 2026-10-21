@@ -1,0 +1,86 @@
+{
+ "resultCount": 3,
+ "results": [
+  {
+   "collectionViewUrl": "https://itunes.apple.com/us/podcast/lex-fridman-podcast/id1434243584?mt=2&uo=4",
+   "trackViewUrl": "https://podcasts.apple.com/us/podcast/333-andrej-karpathy-tesla-ai-self-driving-optimus-aliens/id1434243584?i=1000584342757&uo=4",
+   "trackTimeMillis": 12818000,
+   "contentAdvisoryRating": "Clean",
+   "closedCaptioning": "none",
+   "collectionId": 1434243584,
+   "collectionName": "Lex Fridman Podcast",
+   "artistIds": [],
+   "episodeContentType": "audio",
+   "genres": [
+    {
+     "name": "Technology",
+     "id": "1318"
+    }
+   ],
+   "episodeGuid": "https://lexfridman.com/?p=5252",
+   "episodeFileExtension": "mp3",
+   "shortDescription": "Synthetic test text standing in for third-party prose.",
+   "releaseDate": "2022-10-29T16:36:12Z",
+   "trackName": "#333 – Andrej Karpathy: Tesla AI, Self-Driving, Optimus, Aliens, and AGI",
+   "trackId": 1000584342757,
+   "feedUrl": "https://lexfridman.com/feed/podcast/",
+   "kind": "podcast-episode",
+   "wrapperType": "podcastEpisode",
+   "country": "USA"
+  },
+  {
+   "collectionViewUrl": "https://itunes.apple.com/us/podcast/lex-fridman-podcast/id6814008109?mt=2&uo=4",
+   "trackViewUrl": "https://podcasts.apple.com/us/podcast/333-andrej-karpathy-tesla-ai-self-driving-optimus-aliens/id6814008109?i=1000790718216&uo=4",
+   "trackTimeMillis": 12819000,
+   "contentAdvisoryRating": "Explicit",
+   "closedCaptioning": "none",
+   "collectionId": 6814008109,
+   "collectionName": "Lex Fridman Podcast",
+   "artistIds": [],
+   "episodeContentType": "audio",
+   "genres": [
+    {
+     "name": "Technology",
+     "id": "1318"
+    }
+   ],
+   "episodeGuid": "https://lexfridman.com/?p=5252",
+   "episodeFileExtension": "mp3",
+   "shortDescription": "Synthetic test text standing in for third-party prose.",
+   "releaseDate": "2022-10-29T16:36:12Z",
+   "trackName": "#333 – Andrej Karpathy: Tesla AI, Self-Driving, Optimus, Aliens, and AGI",
+   "trackId": 1000790718216,
+   "feedUrl": "https://www.spreaker.com/show/7373683/episodes/feed",
+   "kind": "podcast-episode",
+   "wrapperType": "podcastEpisode",
+   "country": "USA"
+  },
+  {
+   "collectionViewUrl": "https://itunes.apple.com/us/podcast/lex-fridman-podcast/id6797394108?mt=2&uo=4",
+   "trackViewUrl": "https://podcasts.apple.com/us/podcast/333-andrej-karpathy-tesla-ai-self-driving-optimus-aliens/id6797394108?i=1000779627630&uo=4",
+   "trackTimeMillis": 12818000,
+   "contentAdvisoryRating": "Explicit",
+   "closedCaptioning": "none",
+   "collectionId": 6797394108,
+   "collectionName": "Lex Fridman Podcast",
+   "artistIds": [],
+   "episodeContentType": "audio",
+   "genres": [
+    {
+     "name": "Technology",
+     "id": "1318"
+    }
+   ],
+   "episodeGuid": "https://lexfridman.com/?p=5252",
+   "episodeFileExtension": "mp3",
+   "shortDescription": "Synthetic test text standing in for third-party prose.",
+   "releaseDate": "2022-10-29T16:36:12Z",
+   "trackName": "#333 – Andrej Karpathy: Tesla AI, Self-Driving, Optimus, Aliens, and AGI",
+   "trackId": 1000779627630,
+   "feedUrl": "https://feeds.acast.com/public/shows/6a701c1688c5585c85e3a157",
+   "kind": "podcast-episode",
+   "wrapperType": "podcastEpisode",
+   "country": "USA"
+  }
+ ]
+}

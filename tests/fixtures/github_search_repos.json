@@ -1,0 +1,28 @@
+{
+ "total_count": 2,
+ "items": [
+  {
+   "html_url": "https://github.com/torvalds/linux",
+   "full_name": "torvalds/linux",
+   "description": "Linux kernel source tree",
+   "stargazers_count": 200000,
+   "topics": [
+    "kernel"
+   ],
+   "language": "C",
+   "owner": {
+    "login": "torvalds",
+    "type": "User"
+   }
+  },
+  {
+   "html_url": "https://github.com/someorg/tool",
+   "full_name": "someorg/tool",
+   "description": "org repo",
+   "owner": {
+    "login": "someorg",
+    "type": "Organization"
+   }
+  }
+ ]
+}

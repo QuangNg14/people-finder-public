@@ -1,0 +1,23 @@
+{
+ "status": "true",
+ "items": [
+  {
+   "id": 101,
+   "feedId": 55,
+   "title": "Geoffrey Hinton on neural networks",
+   "link": "https://podcast.example.com/ep101",
+   "description": "A conversation",
+   "datePublished": 1760000000,
+   "feedTitle": "AI Podcast"
+  },
+  {
+   "id": 102,
+   "feedId": 56,
+   "title": "No link episode",
+   "link": "",
+   "description": "",
+   "datePublished": 1760000001,
+   "feedTitle": "Other"
+  }
+ ]
+}

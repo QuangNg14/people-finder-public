@@ -1,0 +1,118 @@
+{
+ "requestId": "synthetic",
+ "results": [
+  {
+   "id": "https://www.linkedin.com/in/geoffrey-hinton-example",
+   "url": "https://www.linkedin.com/in/geoffrey-hinton-example",
+   "title": "Geoffrey Hinton - University of Toronto",
+   "entities": [
+    {
+     "id": "per_1",
+     "type": "person",
+     "version": 1,
+     "properties": {
+      "name": "Geoffrey Hinton",
+      "firstName": "Geoffrey",
+      "lastName": "Hinton",
+      "location": "Toronto, Ontario, Canada",
+      "workHistory": [
+       {
+        "title": "Professor Emeritus",
+        "location": "Toronto",
+        "dates": {
+         "from": "1987",
+         "to": null
+        },
+        "company": {
+         "id": "c1",
+         "name": "University of Toronto"
+        }
+       },
+       {
+        "title": "VP and Engineering Fellow",
+        "location": null,
+        "dates": {
+         "from": "2013",
+         "to": "2023"
+        },
+        "company": {
+         "id": "c2",
+         "name": "Google"
+        }
+       }
+      ],
+      "educationHistory": [
+       {
+        "degree": "PhD, Artificial Intelligence",
+        "dates": {
+         "from": null,
+         "to": "1978"
+        },
+        "institution": {
+         "id": "i1",
+         "name": "University of Edinburgh"
+        }
+       }
+      ],
+      "research": {
+       "worksCount": 400,
+       "citationCount": 900000,
+       "hIndex": 190,
+       "firstPublicationYear": 1976,
+       "latestPublicationYear": 2025,
+       "areas": [
+        "Deep learning",
+        "Neural networks"
+       ],
+       "notableWorks": [
+        {
+         "title": "Learning representations by back-propagating errors",
+         "year": 1986,
+         "venue": "Nature",
+         "citationCount": 50000,
+         "doi": null,
+         "id": null,
+         "type": "article"
+        }
+       ]
+      }
+     }
+    }
+   ]
+  },
+  {
+   "id": "https://example.org/people/geoff-hinton-chef",
+   "url": "https://example.org/people/geoff-hinton-chef",
+   "title": "Geoff Hinton, head chef",
+   "entities": [
+    {
+     "id": "per_2",
+     "type": "person",
+     "version": 1,
+     "properties": {
+      "name": "Geoffrey Hinton",
+      "firstName": "Geoffrey",
+      "lastName": "Hinton",
+      "location": "Leeds, United Kingdom",
+      "workHistory": [
+       {
+        "title": "Head Chef",
+        "location": "Leeds",
+        "dates": {
+         "from": "2015",
+         "to": null
+        },
+        "company": {
+         "id": "c9",
+         "name": "The Riverside Kitchen"
+        }
+       }
+      ],
+      "educationHistory": [],
+      "research": null
+     }
+    }
+   ]
+  }
+ ]
+}

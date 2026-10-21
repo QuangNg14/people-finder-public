@@ -1,0 +1,16 @@
+{
+ "query": "\"Geoffrey Hinton\"",
+ "results": [
+  {
+   "position": 1,
+   "site_name": "news.example.com",
+   "title": "Geoffrey Hinton warns about AI",
+   "snippet": "Geoffrey Hinton said...",
+   "url": "https://news.example.com/hinton-warns",
+   "date": "2026-10-10",
+   "publisher": "Example News"
+  }
+ ],
+ "total_results": 1,
+ "page": 0
+}

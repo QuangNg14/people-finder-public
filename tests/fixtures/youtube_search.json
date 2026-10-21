@@ -1,0 +1,39 @@
+{
+ "items": [
+  {
+   "id": {
+    "kind": "youtube#channel",
+    "channelId": "UC123"
+   },
+   "snippet": {
+    "title": "Geoffrey Hinton Talks",
+    "description": "Lectures",
+    "channelId": "UC123",
+    "channelTitle": "Geoffrey Hinton Talks",
+    "publishedAt": "2020-01-01T00:00:00Z"
+   }
+  },
+  {
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "abc123"
+   },
+   "snippet": {
+    "title": "Geoffrey Hinton on the future of AI",
+    "description": "Interview",
+    "channelId": "UC999",
+    "channelTitle": "Some Show",
+    "publishedAt": "2026-05-01T00:00:00Z"
+   }
+  },
+  {
+   "id": {
+    "kind": "youtube#playlist",
+    "playlistId": "PL1"
+   },
+   "snippet": {
+    "title": "ignored"
+   }
+  }
+ ]
+}

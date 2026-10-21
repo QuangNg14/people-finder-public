@@ -1,0 +1,7 @@
+{"items": [
+ {"snippet": {"title": "Keynote on safe AI", "description": "Recorded talk", "channelTitle": "Example Channel"},
+  "contentDetails": {"videoId": "vid00000001", "videoPublishedAt": "2026-10-01T10:00:00Z"}},
+ {"snippet": {"title": "Old lecture", "description": "", "channelTitle": "Example Channel"},
+  "contentDetails": {"videoId": "vid00000002", "videoPublishedAt": "2025-01-01T10:00:00Z"}},
+ {"snippet": {"title": "No id"}, "contentDetails": {}}
+]}

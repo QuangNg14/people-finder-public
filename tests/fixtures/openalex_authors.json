@@ -1,0 +1,247 @@
+{
+ "meta": {
+  "count": 5,
+  "db_response_time_ms": 29,
+  "page": 1,
+  "per_page": 3,
+  "groups_count": null,
+  "x_query": {
+   "oql": "get authors where text has (Geoffrey Hinton)",
+   "x_new_oql": "get authors where text has (Geoffrey Hinton)",
+   "oqo": {
+    "get_rows": "authors",
+    "filter_rows": [
+     {
+      "column_id": "text.search",
+      "value": "Geoffrey Hinton",
+      "operator": "has"
+     }
+    ]
+   },
+   "url": "/authors?filter=text.search:Geoffrey Hinton&per_page=3"
+  },
+  "cost_usd": 0.001
+ },
+ "results": [
+  {
+   "id": "https://openalex.org/A5108093963",
+   "orcid": "https://orcid.org/0000-0002-1234-5678",
+   "display_name": "Geoffrey E. Hinton",
+   "works_count": 560,
+   "cited_by_count": 501635,
+   "summary_stats": {
+    "2yr_mean_citedness": 18.5,
+    "h_index": 145,
+    "i10_index": 324
+   },
+   "last_known_institutions": [
+    {
+     "id": "https://openalex.org/I1290206253",
+     "ror": "https://ror.org/00d0nc645",
+     "display_name": "Microsoft (United States)",
+     "country_code": "US",
+     "type": "company",
+     "lineage": [
+      "https://openalex.org/I1290206253"
+     ]
+    },
+    {
+     "id": "https://openalex.org/I185261750",
+     "ror": "https://ror.org/03dbr7087",
+     "display_name": "University of Toronto",
+     "country_code": "CA",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I185261750"
+     ]
+    }
+   ],
+   "topics": [
+    {
+     "id": "https://openalex.org/T10320",
+     "display_name": "Neural Networks and Applications",
+     "count": 303,
+     "subfield": {
+      "id": "https://openalex.org/subfields/1702",
+      "display_name": "Artificial Intelligence"
+     },
+     "field": {
+      "id": "https://openalex.org/fields/17",
+      "display_name": "Computer Science"
+     },
+     "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+     }
+    },
+    {
+     "id": "https://openalex.org/T11303",
+     "display_name": "Bayesian Modeling and Causal Inference",
+     "count": 107,
+     "subfield": {
+      "id": "https://openalex.org/subfields/1702",
+      "display_name": "Artificial Intelligence"
+     },
+     "field": {
+      "id": "https://openalex.org/fields/17",
+      "display_name": "Computer Science"
+     },
+     "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+     }
+    },
+    {
+     "id": "https://openalex.org/T10036",
+     "display_name": "Advanced Neural Network Applications",
+     "count": 74,
+     "subfield": {
+      "id": "https://openalex.org/subfields/1707",
+      "display_name": "Computer Vision and Pattern Recognition"
+     },
+     "field": {
+      "id": "https://openalex.org/fields/17",
+      "display_name": "Computer Science"
+     },
+     "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+     }
+    }
+   ]
+  },
+  {
+   "id": "https://openalex.org/A5086198262",
+   "orcid": "https://orcid.org/0000-0002-9322-3515",
+   "display_name": "Yoshua Bengio",
+   "works_count": 1570,
+   "cited_by_count": 527881,
+   "summary_stats": {
+    "2yr_mean_citedness": 3.773519163763066,
+    "h_index": 187,
+    "i10_index": 686
+   },
+   "last_known_institutions": null,
+   "topics": [
+    {
+     "id": "https://openalex.org/T10320",
+     "display_name": "Neural Networks and Applications",
+     "count": 450,
+     "subfield": {
+      "id": "https://openalex.org/subfields/1702",
+      "display_name": "Artificial Intelligence"
+     },
+     "field": {
+      "id": "https://openalex.org/fields/17",
+      "display_name": "Computer Science"
+     },
+     "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+     }
+    },
+    {
+     "id": "https://openalex.org/T10028",
+     "display_name": "Topic Modeling",
+     "count": 226,
+     "subfield": {
+      "id": "https://openalex.org/subfields/1702",
+      "display_name": "Artificial Intelligence"
+     },
+     "field": {
+      "id": "https://openalex.org/fields/17",
+      "display_name": "Computer Science"
+     },
+     "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+     }
+    },
+    {
+     "id": "https://openalex.org/T11307",
+     "display_name": "Domain Adaptation and Few-Shot Learning",
+     "count": 219,
+     "subfield": {
+      "id": "https://openalex.org/subfields/1702",
+      "display_name": "Artificial Intelligence"
+     },
+     "field": {
+      "id": "https://openalex.org/fields/17",
+      "display_name": "Computer Science"
+     },
+     "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+     }
+    }
+   ]
+  },
+  {
+   "id": "https://openalex.org/A5098035523",
+   "orcid": null,
+   "display_name": "James A. Anderson and Geoffrey E. Hinton",
+   "works_count": 1,
+   "cited_by_count": 50,
+   "summary_stats": {
+    "2yr_mean_citedness": 0.0,
+    "h_index": 1,
+    "i10_index": 1
+   },
+   "last_known_institutions": null,
+   "topics": [
+    {
+     "id": "https://openalex.org/T10054",
+     "display_name": "Parallel Computing and Optimization Techniques",
+     "count": 1,
+     "subfield": {
+      "id": "https://openalex.org/subfields/1708",
+      "display_name": "Hardware and Architecture"
+     },
+     "field": {
+      "id": "https://openalex.org/fields/17",
+      "display_name": "Computer Science"
+     },
+     "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+     }
+    },
+    {
+     "id": "https://openalex.org/T10581",
+     "display_name": "Neural dynamics and brain function",
+     "count": 1,
+     "subfield": {
+      "id": "https://openalex.org/subfields/2805",
+      "display_name": "Cognitive Neuroscience"
+     },
+     "field": {
+      "id": "https://openalex.org/fields/28",
+      "display_name": "Neuroscience"
+     },
+     "domain": {
+      "id": "https://openalex.org/domains/1",
+      "display_name": "Life Sciences"
+     }
+    },
+    {
+     "id": "https://openalex.org/T13062",
+     "display_name": "Cognitive Computing and Networks",
+     "count": 1,
+     "subfield": {
+      "id": "https://openalex.org/subfields/1702",
+      "display_name": "Artificial Intelligence"
+     },
+     "field": {
+      "id": "https://openalex.org/fields/17",
+      "display_name": "Computer Science"
+     },
+     "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+     }
+    }
+   ]
+  }
+ ],
+ "group_by": []
+}

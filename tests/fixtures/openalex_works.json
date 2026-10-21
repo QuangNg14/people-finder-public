@@ -1,0 +1,118 @@
+{
+ "meta": {
+  "count": 3
+ },
+ "results": [
+  {
+   "id": "https://openalex.org/W7214912522",
+   "doi": "https://doi.org/10.48550/arxiv.2609.36054",
+   "display_name": "What if automating AI R&D triggers an intelligence explosion?",
+   "publication_date": "2026-09-28",
+   "cited_by_count": 0,
+   "primary_location": {
+    "landing_page_url": "https://doi.org/10.48550/arxiv.2609.36054",
+    "source": {
+     "display_name": "arXiv (Cornell University)"
+    }
+   },
+   "authorships": [
+    {
+     "author": {
+      "id": "https://openalex.org/A5038590380",
+      "display_name": "Alan Chan"
+     }
+    },
+    {
+     "author": {
+      "id": "https://openalex.org/A5103076050",
+      "display_name": "Christoph K. Winter"
+     }
+    },
+    {
+     "author": {
+      "id": "https://openalex.org/A5128260533",
+      "display_name": "Andrew G. Barto"
+     }
+    },
+    {
+     "author": {
+      "id": "https://openalex.org/A5011053473",
+      "display_name": "Jakub Pachocki"
+     }
+    }
+   ]
+  },
+  {
+   "id": "https://openalex.org/W7215133695",
+   "doi": null,
+   "display_name": "What if automating AI R&D triggers an intelligence explosion?",
+   "publication_date": "2026-09-28",
+   "cited_by_count": 0,
+   "primary_location": {
+    "landing_page_url": "https://arxiv.org/abs/2609.36054",
+    "source": {
+     "display_name": "arXiv (Cornell University)"
+    }
+   },
+   "authorships": [
+    {
+     "author": {
+      "id": "https://openalex.org/A5038590380",
+      "display_name": "Alan Chan"
+     }
+    },
+    {
+     "author": {
+      "id": "https://openalex.org/A5103076050",
+      "display_name": "Christoph K. Winter"
+     }
+    },
+    {
+     "author": {
+      "id": "https://openalex.org/A5128260533",
+      "display_name": "Andrew G. Barto"
+     }
+    },
+    {
+     "author": {
+      "id": "https://openalex.org/A5011053473",
+      "display_name": "Jakub Pachocki"
+     }
+    }
+   ]
+  },
+  {
+   "id": "https://openalex.org/W7168040029",
+   "doi": "https://doi.org/10.34740/kaggle/dsv/17890299",
+   "display_name": "AlexNet Source Code",
+   "publication_date": "2026-07-11",
+   "cited_by_count": 0,
+   "primary_location": {
+    "landing_page_url": "https://doi.org/10.34740/kaggle/dsv/17890299",
+    "source": {
+     "display_name": "Kaggle"
+    }
+   },
+   "authorships": [
+    {
+     "author": {
+      "id": "https://openalex.org/A5031152245",
+      "display_name": "Alex Krizhevsky"
+     }
+    },
+    {
+     "author": {
+      "id": "https://openalex.org/A5006446297",
+      "display_name": "Ilya Sutskever"
+     }
+    },
+    {
+     "author": {
+      "id": "https://openalex.org/A5108093963",
+      "display_name": "Geoffrey E. Hinton"
+     }
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,32 @@
+# Secrets: names go in .env.example, values never enter the repo
+.env
+.env.*
+!.env.example
+*.key
+credentials.json
+cookies.txt
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+uv.lock
+
+# Local data: caches and shortlists are personal data and stay out of the repo
+*.sqlite
+*.sqlite3
+*.db
+out/
+cache/
+shortlists/
+
+# OS and editor
+.DS_Store
+.idea/
+.vscode/
+*.swp

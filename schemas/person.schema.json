@@ -1,0 +1,84 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/QuangNg14/people-finder/schemas/person.schema.json",
+  "title": "Consented directory member",
+  "description": "A record the member supplies about themselves (spec section 17). There is deliberately no field for a phone number, a home or street address, private messages, or any inferred sensitive trait (health, religion, ethnicity, sexual orientation, political views, biometrics, union membership). additionalProperties is false so none can be added without a schema change and review.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["member_id", "display_name", "last_confirmed", "consent_log_ref"],
+  "properties": {
+    "member_id": {
+      "type": "string",
+      "format": "uuid",
+      "description": "Opaque identifier. Never derived from email or name."
+    },
+    "display_name": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 120,
+      "description": "Real name or alias, the member's choice."
+    },
+    "current_employer": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["name", "verified"],
+      "properties": {
+        "name": { "type": "string", "maxLength": 200 },
+        "verified": { "type": "boolean", "description": "True only after work-email magic-link verification." },
+        "verified_at": { "type": "string", "format": "date-time" }
+      }
+    },
+    "team_or_function": { "type": "string", "maxLength": 120 },
+    "seniority_band": {
+      "type": "string",
+      "enum": ["student", "early_career", "mid_level", "senior", "lead_or_manager", "executive"],
+      "description": "Broad band only, never a title ladder level."
+    },
+    "city": {
+      "type": "string",
+      "maxLength": 120,
+      "description": "City-level location. Never a street, district, or postcode."
+    },
+    "languages": {
+      "type": "array",
+      "items": { "type": "string", "pattern": "^[a-z]{2,3}(-[A-Z]{2})?$" },
+      "uniqueItems": true,
+      "description": "BCP 47 language tags, e.g. vi, en-US."
+    },
+    "help_topics": {
+      "type": "array",
+      "items": { "type": "string", "maxLength": 80 },
+      "maxItems": 20,
+      "uniqueItems": true,
+      "description": "Topics the member is willing to help with (referrals, resume review, ...)."
+    },
+    "published_handles": {
+      "type": "object",
+      "description": "Only the handles the member chooses to publish.",
+      "additionalProperties": false,
+      "properties": {
+        "linkedin": { "type": "string", "format": "uri" },
+        "github": { "type": "string", "pattern": "^[A-Za-z0-9-]{1,39}$" },
+        "x": { "type": "string", "pattern": "^[A-Za-z0-9_]{1,15}$" },
+        "facebook": { "type": "string", "format": "uri" },
+        "instagram": { "type": "string", "pattern": "^[A-Za-z0-9._]{1,30}$" },
+        "website": { "type": "string", "format": "uri" }
+      }
+    },
+    "last_confirmed": {
+      "type": "string",
+      "format": "date",
+      "description": "Last date the member confirmed this record is current. Stale records are hidden."
+    },
+    "response_indicator": {
+      "type": "string",
+      "enum": ["usually_responds", "sometimes_responds", "rarely_responds", "new_member"],
+      "description": "Rolling indicator computed from the last 90 days; no message content is stored."
+    },
+    "consent_log_ref": {
+      "type": "string",
+      "format": "uuid",
+      "description": "Points at the member's append-only consent log (consent.schema.json)."
+    }
+  }
+}

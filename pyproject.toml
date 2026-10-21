@@ -1,0 +1,52 @@
+[project]
+name = "people-finder"
+version = "0.1.0"
+description = "Cited, per-field people search over public sources, with no stored database of people."
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "fastmcp>=3",
+    "httpx>=0.28.1",
+    "pydantic>=2.13.5",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+# Only core/ ships. instrument/ is never part of the wheel (spec 4.1).
+[tool.hatch.build.targets.wheel]
+packages = ["core"]
+
+[tool.hatch.build.targets.sdist]
+include = ["core", "schemas", "README.md"]
+exclude = ["instrument"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py313"
+extend-exclude = ["docs"]
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B", "UP", "SIM", "RUF"]
+
+[tool.mypy]
+python_version = "3.13"
+strict = true
+files = ["core", "mcp", "tests"]
+explicit_package_bases = true
+
+[[tool.mypy.overrides]]
+module = ["tests.*"]
+disallow_untyped_decorators = false
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[dependency-groups]
+dev = [
+    "mypy>=2.4.0",
+    "pytest>=9.1.1",
+    "respx>=0.23.1",
+    "ruff>=0.16.10",
+]
